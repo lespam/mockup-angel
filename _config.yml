@@ -1,5 +1,5 @@
-url: "https://lespam.fun/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/1693706448" # the subpath of your site, e.g. /blog
+url: "https://lespam.fun" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/1693706448/" # the subpath of your site, e.g. /blog
 
 title: "Mock" # the name of your site, e.g. ACME Corp.
 
