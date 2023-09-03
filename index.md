@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: index
 title: "Happy Jekylling!"
 ---
 
 ## You're ready to go!
-
-Start developing your Jekyll website.
+# https://html5up.net/hyperspace
