@@ -105,11 +105,11 @@
 					// Columns, offsets.
 						@for $i from 1 through $cols {
 							> .col-#{$i}#{$suffix} {
-								width: $unit * $i;
+								width: calc($unit * $i);
 							}
 
 							> .off-#{$i}#{$suffix} {
-								margin-left: $unit * $i;
+								margin-left: calc($unit * $i);
 							}
 						}
 
@@ -120,23 +120,23 @@
 								$class: null;
 
 								@if ($multiplier != 1) {
-									$class: '.gtr-' + ($multiplier * 100);
+									$class: '.gtr-' + calc($multiplier * 100);
 								}
 
 								&#{$class} {
-									margin-top: ($guttersRows * $multiplier * -1);
-									margin-left: ($guttersCols * $multiplier * -1);
+									margin-top: calc($guttersRows * calc($multiplier * -1));
+									margin-left: calc($guttersCols * calc($multiplier * -1));
 
 									> * {
-										padding: ($guttersRows * $multiplier) 0 0 ($guttersCols * $multiplier);
+										padding: calc($guttersRows * $multiplier) 0 0 calc($guttersCols * $multiplier);
 									}
 
 									// Uniform.
 										&.gtr-uniform {
-											margin-top: $guttersCols * $multiplier * -1;
+											margin-top: calc($guttersCols * calc($multiplier * -1));
 
 											> * {
-												padding-top: $guttersCols * $multiplier;
+												padding-top: calc($guttersCols * $multiplier);
 											}
 										}
 
