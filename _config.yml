@@ -4,3 +4,6 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Mock" # the name of your site, e.g. ACME Corp.
 
 domain: "lespam.fun"
+
+sass:
+    sass_dir: _sass
