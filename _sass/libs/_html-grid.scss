@@ -120,7 +120,7 @@
 								$class: null;
 
 								@if ($multiplier != 1) {
-									$class: '.gtr-' + #{calc($multiplier * 100)};
+									$class: '".gtr-"' + calc($multiplier * 100)};
 								}
 
 								&#{$class} {
